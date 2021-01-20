@@ -1,10 +1,10 @@
-package com.restSecurity.jwtAndSpringSecurity;
+package com.restSecurity.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class JwtAndSpringSecurityApplicationTests {
+class MainTests {
 
 	@Test
 	void contextLoads() {
