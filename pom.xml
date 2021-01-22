@@ -36,7 +36,7 @@
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<version>1.4.200</version>
-			<scope>test</scope>
+			<scope>runtime</scope> <!-- Cuidado p n substituir 'runtime' por 'test' -->
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -44,9 +44,9 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.auth0</groupId>
-			<artifactId>java-jwt</artifactId>
-			<version>3.10.3</version>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt</artifactId>
+			<version>0.7.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
